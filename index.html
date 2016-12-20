@@ -5,34 +5,211 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/components/icon.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.js"></script>
     <style>
-        form {
-            width: 450px:
+        p, td, th {
+            
+            font-size: 20px;
+            font-family: inherit;
         }
+        a, a:hover, a:visited {
+            color: white;
+        }
+        ul {
+            font-size: 20px
+        }
+        li {
+            font-size: 16px
+        }
+        td {
+            padding: 2px 0px 2px 0px;
+        }
+        .text {
+            padding: 200px;
+        }
+        
         
     </style>
     </head>
     <body>
-        <p style="padding-top:25%"></p>
-    <div class="container">
-        <div class="ui middle aligned center aligned grid">
-            <div class="column">
-               <h1 class="ui image header">
+        <div class="ui container">
+        <div class="ui large  inverted teal labeled  menu">
+                <a href="home.html" class=" active labeled item">
+                <span><i class="large home icon"></i></span>Home
+                </a>
+                <a href="#resume" class=" item">
+                Resume
+                </a>
+                <a href="#contact" class="labled item">
+                <span><i class="large whatsapp icon"></i></span>Contact
+                </a>
+        </div>
+        <div class="ui inverted  masthead center aligned segment">
+            <div class="ui text container">
+                <img class="ui medium circular image" src="images/me.jpg"/>
+              <h1 class="ui teal header">Bheemanagouda A</h1>
+              <a href="#resume">
+              <div  class="ui massive  teal button">
+               Resume <i class="down arrow icon"></i>  
+              </div>
+              </a>
+            </div>    
+        
+        </div>
+     </div>
+     <div id="resume" class="ui  container">
+           
+            <p style="padding:5px"></p>
+            
+        
+        
+            <div class="ui segment">
+             <h2>My Introduction</h2>
+                <p style="padding:20px"></p>
+             
+             <p>I am a Benguluru based software developer, currently working as Member of Technical Staff 3 in VMware 
+            Software India.</p>
+            <p style="padding:20px"></p>
+            </div>
+            <div class="ui segment">
+                <h2>Objective</h2>
+                <p style="padding:20px"></p>
+                <p>To pursue a challenging career in a professional organization where I could contribute towards its growth and also enhance my technical, personal and team-development skills.</p>
+            <p style="padding:20px"></p>
+            </div>
+            <div class="ui segment">
+            <h2> My Experience Includes</h2>
+                <p style="padding:20px"></p>
+                <span><strong>MEMBER OF TECHINCAL STAFF-3 | VMWARE | 01-01-2016 - PRESENT </strong></span>
+                <p>
+                Part of vSphere SSO Team and primary responsibility were adding new features and fixing bugs on Identity Manager, Secure Token Server, WebSSO, Certificate-Server, Authentication Framework Service, VMware Directory Service, Likewise.
+                </p>
+                <p>
+                I have been working on complete SSO stack which includes:
+                </p>
+                <p>
+                <strong>Identity Manager:</strong> IDM is core component of SSO which is responsible for managing tenants, identity sources, accessing groups/users, authenticating user etc.
+                </p>
+                <p>
+                <strong>Secure Token Server(STS):</strong> Issues SAML tokens.
+                </p>
+                <p>
+                <strong>WebSSO:</strong> It is based on web browser SSO profile, supports issuing BEARER SAML token.
+                </p>
+                <p>
+                <strong>VMware Directory Service:</strong> LDAP Standards based general purpose distributed directory system.
+
+                </p>
+            
+            <div>
+                <span><strong>MEMBER OF TECHINCAL STAFF-2 | VMWARE | 01-07-2015 - 31-12-2015 </strong></span>
+            </div>
+            <div style="margin-top:20px ">
+                <span><strong>MEMBER OF TECHINCAL STAFF-1 | VMWARE | 01-07-2013 - 20-06-2014 </strong></span>
+            </div>
+                <p style="padding:20px"></p>
+          </div>
+        <div class="ui segment">
+            <h2>Skills & Abilities</h2>
+            <p style="padding:20px"></p>
+            <div>
+                <ul > <strong>PROGRAMMING LANGUAGES</strong>
+                    <li style="margin-left: 20px">JAVA, C, PYTHON, Web Technologies:HTML, CSS, JAVASCRIPT, ANGULARJS, BOOTSTRAP, IONIC</li>
+                </ul>
+            </div>
+            <div>
+                <ul > <strong>JAVA FRAMEWORKS</strong>s
+                    <li style="margin-left: 20px">SPRING CORE, SPRING MVC</li>
+                </ul>
+            </div>
+            <div>
+                <ul ><strong>PLATFORMS</strong>
+                    <li style="margin-left: 20px">ESXi, Windows, Linux, vSphere vCenter</li>
+                </ul>
+            </div>
+            <div>
+                <ul><strong>APPLICATION SOFTWARE</strong>
+                    <li style="margin-left: 20px">Perforce, Git, IDEs:Eclipse, IntelliJ</li>
+                </ul>
+            </div>
+            <div>
+                <ul><strong>AREAS OF INTEREST</strong>
+                    <li style="margin-left: 20px"> Data Structures, Algorithms, SAML 2.0, LDAP, Identity and Access Management, Sigle Sign-On, PKI, Directory Service, VMware vSphere, Web Development</li>
+                </ul>
+            </div>
+            <p style="padding:20px"></p>
+        </div>
+        <div class="ui segment">
+            <h2>Academic Projects</h2>
+            <p style="padding:20px"></p>
+            <strong>LEXICAL ANALYZER</strong>
+            <p>A lexical analyzer which analyzes given file and gives the various tokens present in it.</p>
+            <strong>SPORTS MANAGEMENT SYSTEM</strong>
+            <p>A DBMS project.</p>
+            <strong>AUTOMATED LIVE MIGRATION OF VIRTUAL MACHINES</strong>
+            <p>A tool that analyzes resource usage of VM and based on that migrates VMs.</p>
+            <strong>SENTIMENT ANALYZER</strong>
+            <p>Collects posts in twitter based on #keyword and performs sentiment analysis.</p>
+            <strong>RVCE – TEXT WEB APP</strong>
+            <p>A SMS based app that extract notification info available on RVCE website and sends it to the user</p>
+            <p style="padding:20px"></p>
+        </div>
+        <div class="ui segment">
+            <h2>Education</h2>
+           <p style="padding:20px"></p>
+
+            <table style=" width:100%;">
                 
-                Please Login
-                </h1>
-            <div class="ui stacked segement">
-            <form class="ui form">
-                <div class="field">
-                   <div class="ui left icon input">
-                     <i class="user iocn"></i>
-                      <input type="text" placeholder="Enter Username"/>
-                    </div>
-                </div>
-            </form>
-            </div>
-            </div>
+                <tbody>
+                    <tr>
+                        <td>B.E</td><td>RVCE Bengaluru</td><td>CGCPA 8.60</td><td>2013</td>
+                    </tr>
+                    <tr>
+                        <td>DIPLOMA IN CSE</td><td>Govt Polytechnic Gulbarga</td><td>87.47, STATE CET RANK-07</td><td>2010</td>
+                    </tr>
+                    <tr>
+                        <td>SSLC</td><td>Govt High School Maala B</td><td>86.40</td><td>2007</td>
+                    </tr>
+                </tbody>
+            </table>
+                        <p style="padding:20px"></p>
+
         </div>
-        <p style="padding-bottom:25%"></p>
+        <div class="ui segment">
+            <h2>Personal Details</h2>
+            <p style="padding:20px"></p>
+            <table>
+                <tr>
+                    <td>Name</td><td>: Bheemanagouda Ayyanagouda</td>
+                </tr>
+                <tr>
+                    <td>Father's Name</td><td>: Ayyanagouda</td>
+                </tr>
+                <tr>
+                    <td>DOB</td><td>: 10-07-1991</td>
+                </tr>
+                <tr>
+                    <td>Sex</td><td>: Male</td>
+                </tr>
+                <tr>
+                    <td>Nationality</td><td>: Indian</td>
+                </tr>
+            </table>
+            <p style="padding:20px"></p>
         </div>
-     </body>
+  
+         <div class="ui inverted section divider"></div>
+         </div>
+        
+        <footer id="contact" class="ui container">
+        <div class="ui inverted center aligned footer segment">
+            
+            <button class="large ui circular facebook icon button">
+             <a href="https://facebook.com/gouda777"><i class="large facebook icon"></i></a>
+            </button>
+            <button class="large ui circular linkedin icon button">
+             <a href="https://in.linkedin.com/in/bheemanagouda-a-56625a41"><i class="large linkedin icon"></i></a>
+            </button>
+            
+        </div>
+      </footer>
+    </body>
 </html>
